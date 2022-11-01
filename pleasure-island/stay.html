@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Welcome to Pleasure Island || Hotels</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+
+
+    <header class="header">
+        <a href="index.html"><img src="images/beach-water1.png" class="banner"></a>
+    </header>
+
+    
+    <div id="navbar">
+    <nav class="nav-bar">
+        <ul class="nav-ul">
+            <li class="inline"><a href="index.html">Home</a></li>
+            <li class="inline"><a href="eat.html">Where To Eat</a></li>
+            <li class="inline"><a href="stay.html">Where To Stay</a></li>
+            <li class="inline"><a href="play.html">Where To Play</a></li>
+        </ul>
+    </nav>
+    </div>
+    
+    
+    <nav id="hamnav"> <!--ALTERNATE NAV MARKUP FOR HAMBURGER MENU-->
+        <label for="hamburger">&#9776;</label>
+        <input type="checkbox" id="hamburger">
+    <div id="hamitems">
+        <a href="index.html">Home</a>
+        <a href="eat.html">Where to Eat</a>
+        <a href="stay.html">Where to Stay</a>
+        <a href="play.html">Where to Play</a>
+    </div>
+    </nav>
+
+    <div id="wrapper1">
+    <div id="sidebar1">
+    <aside class="sidebar"> <!--MAIN SIDEBAR TO BE FEATURED ON ALL PAGES, MAY DISSAPPEAR ON MOBILE-->
+        <h3 class="sidebar-events-header">Current Events</h3>
+        <br>
+            
+                <a href="#">Surfing Contest</a>
+                <a href="#">Fishing Contest</a>
+                <a href="#">Shell Collecting</a>
+            
+            <br>
+        <h3 class="sidebar-beaches">Visit Local Beaches</h3>
+        <br>
+            
+                <a href="#">Carolina Beach</a>
+                <a href="#">Kure Beach</a>
+                <a href="#">Historic Fort Fisher</a>
+            
+    </aside>
+    </div>
+
+
+    <main>
+        <body>
+            <div class="food-img">
+                <img class="main-heading-img1" class="food-img" src="images/hotel.jpg" alt="large hotel looming over a sun-soaked beach">
+                <h2 class="food-heading">Lounge in luxary at Pleasure Island</h2>
+                <h3 class="food-sub-heading">Get restful sleep and wake up to gorgeous views at one of our premier hotels!</h3>
+            </div>
+
+            <div id="food-form">
+                <form class="food-form">
+                    <label for="food-search" class="food-label">Search Hotels:</label>
+                    <input type="search" id="food-search" name="food-search" class="food-search" placeholder="Search for food near you...">
+                    <br>
+                    <h5>Filter Search by:</h5>
+                    <input type="radio" id="location" name="food-search" value="location">
+                    <label for="location">Location</label>
+                    <input type="radio" id="cuisine" name="food-search" value="cuisine">
+                    <label for="cuisine">Cuisine Type</label>
+                    <input type="radio" id="rating" name="food-search" value="rating">
+                    <label for="rating">Ratings</label>
+                </form>
+            </div>
+        </body>
+    </main>
+</div>
+    <footer>
+        <p><a href="https://www.facebook.com/PleasureIslandChamber/"><img src="images/fb-logo.svg" class="fb-logo"></a>Find Us on Facebook <a href="https://www.facebook.com/PleasureIslandChamber/"><img src="images/insta-logo.svg" class="insta-logo"></a>Follow Us on Instragram</p>
+    </footer>
+    </html>
